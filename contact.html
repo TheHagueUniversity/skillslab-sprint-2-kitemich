@@ -55,7 +55,7 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a href="post.html">Lifestyle</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
@@ -87,7 +87,40 @@
     		<p class="contact-info">agency: NEVA models</p>
     	</div>
     </div>
-    
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+        padding-top: 1.5em;
+       }
+    </style>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: new google.maps.LatLng(45.473724, 9.178409),
+        });
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(45.473724, 9.178409),
+          map: map
+        });
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(52.214940, 21.007601),
+          map: map
+        });
+        53.433705, 14.527798
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(53.433705, 14.527798),
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCybGifkDUUPUKKdV9elSZoAu9YMG1JGTc&callback=initMap">
+    </script>
+
     <hr>
 
     <!-- Footer -->
