@@ -8,7 +8,7 @@ a, body {
     text-align: center;
 }
 body {
-    font-family: Lora, 'Times New Roman', serif;
+    font-family:  Helvetica Light, Lora, 'Times New Roman', serif;
     font-size: 20px;
     -webkit-tap-highlight-color: #0085A1;
 }
@@ -402,7 +402,7 @@ animation-direction: alternate;
    -webkit-box-shadow: 0px 0px 39px -4px rgba(0,0,0,0.75);
    -moz-box-shadow: 0px 0px 39px -4px rgba(0,0,0,0.75);
    box-shadow: 0px 0px 39px -4px rgba(0,0,0,0.75);
- rgba(250,250,250,1);
+   
 }
 .aboutbox1{
     color: #d55e5f;
@@ -439,6 +439,18 @@ h1:hover{
 }
 .subheading:hover{
     color: #d55e5f;
+}
+#map {
+        height: 400px;
+        width: 100%;
+        padding-top: 1.5em;
+       }
+.places{
+    margin-bottom: -1.2em;
+    text-align: center;
+    color: #d55e5f;
+    font-size: 2.5em;
+
 }
 /*
 .gallery{
