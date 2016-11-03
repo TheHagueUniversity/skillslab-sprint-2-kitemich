@@ -397,6 +397,7 @@ animation-direction: alternate;
     display: inline;
     text-align: center;
     margin: 30px;
+    color: #d55e5f;
 }
 .aboutbox1, .aboutbox2{
    -webkit-box-shadow: 0px 0px 39px -4px rgba(0,0,0,0.75);
@@ -418,6 +419,7 @@ animation-direction: alternate;
     margin-right: 2em;
     display: inline;
     text-align: center;
+    color: white;
 
 }
 .abouthead{
