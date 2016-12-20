@@ -13,7 +13,7 @@ body {
     -webkit-tap-highlight-color: #0085A1;
 }
 .intro-header .page-heading .subheading, .intro-header .post-heading .subheading, .intro-header .site-heading .subheading, .navbar-custom, h1, h2, h3, h4, h5, h6 {
-    font-family:Avenir Light, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family:Avenir Light, 'Open Sans';
 }
 p {
     line-height: 1.5;
