@@ -1,0 +1,168 @@
+/*
+ANIMATION FUNCTION FOR GALLERY
+*/
+@keyframes FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+.gallery1 img.top {
+animation-name: FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 15s;
+animation-direction: alternate;
+}
+.gallery img.top{
+animation-name: FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+.gallery, .gallery1 {
+  position: relative;
+  padding: 0px !important;
+  height: 33vw;
+}
+
+.gallery img, .gallery1 img{
+    position: absolute;
+    width: calc( 100% - 20px );
+    margin: 10px;
+
+}
+.gallery_all{
+    margin: 0px 10px;
+}
+.gallery img:hover, .gallery1 img:hover{
+    animation-name: FadeInOut;
+    animation-duration: 0s;
+}
+#sizes{
+    font-size: 0.9em;
+    display: inline;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: white;
+}
+
+
+#abouticon{
+    height: 2em;
+    width: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#values{
+    font-size: 0.9em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: inline;
+    text-align: center;
+    color: white;
+
+}
+.abouthead{
+    text-align: left;
+    margin-top: 1.5em;
+    color: #d55e5f;
+    font-size: 1.6em;
+    font-family: Avenir light;
+}
+.contact-info{
+    margin: 0.5em;
+    color: #343434;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Helvetica Light;
+}
+h1:hover{
+    color: #d55e5f;
+}
+.subheading:hover{
+    color: #d55e5f;
+}
+#map {
+        height: 400px;
+        width: 100%;
+        padding-top: 1.5em;
+       }
+.places{
+    margin-bottom: -1.2em;
+    text-align: center;
+    color: #d55e5f;
+    font-size: 2.5em;
+
+}
+
+#video {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+#video iframe, #video object, #video embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.header_index{
+    background-image: url('../img/home.png');
+}
+.header_about{
+    background-image: url('../img/aboutpic.png');
+}
+.header_post{
+    background-image: url('../img/lifestylehome.png');
+}
+.header_contact{
+    background-image: url('../img/contact.jpg');
+}
+.aboutinfo, .aboutFirst, .aboutSecond, .aboutThird{
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutFirst{
+    background-color:black; width:90%;
+}
+.aboutSecond{
+    background-color:black; width:90%;
+}
+.aboutThird{
+    width:90%;
+}
+.post_content{
+    margin-right: auto;
+    margin-left: auto;
+}
+#postFour{
+    text-align: right;
+    font-size: 3em;
+}
+#horrizontalhr{
+    transform: rotate(90deg);
+}
+#contact{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    margin: 0 auto;
+    width: 250px;
+}

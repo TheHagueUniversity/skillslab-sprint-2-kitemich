@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,9 +30,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
 
-<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -68,7 +67,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header  class="intro-header" style="background-image: url('img/contact.jpg')">
+    <header  class="intro-header header_contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -79,7 +78,9 @@
             </div>
         </div>
     </header>
-    <main>
+
+    <body>
+
     <div class="container">
     	<div class="col-lg-10 col-md-10 col-md-offset-1">
     		<p class="contact-info"><strong>phone</strong> : +48 800 872 456</p>
@@ -87,36 +88,40 @@
     		<p class="contact-info"><strong>agency</strong> : NEVA models</p>
     	</div>
     </div>
-    </main>
-    <center>
-    <div class="container">
+    
+   
+    <div class="container contact">
      <p> Sign up to newsletter</p>
         <form>
-  <input type="text" name="firstname" value="first name"><br><br>
-  <input type="text" name="lastname" value="last name"><br><br>
-  <input type="email" name="email" value="e-mail"><br><br>
-  <input type="number" name="age" value="age"><br><br>
-  <input type="tel" name="telnum" value="telephone"><br><br>
-  <input type="submit" value="Submit">
-</form>
-    
+            <input type="text" name="firstname" value="first name"><br><br>
+            <input type="text" name="lastname" value="last name"><br><br>
+            <input type="email" name="email" value="e-mail"><br><br>
+            <input type="number" name="age" value="age"><br><br>
+            <input type="tel" name="telnum" value="telephone"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        
     </div>
-    </center>
+
+    </body>
 
     	<div class="container contactFirst">
     	<div class="col-lg-10 col-md-10 col-md-offset-1">
     		<p class="places"> Where I have been so far</p>
     	</div>
     	</div>
+        <br>
     <div id="map">
     	
     </div>
+
     <script>
       function initMap() {
         var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: new google.maps.LatLng(45.473724, 9.178409),
+          scrollwheel:  false
         });
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(45.473724, 9.178409),
@@ -137,7 +142,6 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCybGifkDUUPUKKdV9elSZoAu9YMG1JGTc&callback=initMap">
     </script>
 
-    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script> 
 
     <hr>
 
@@ -179,6 +183,9 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>  
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>

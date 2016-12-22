@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +32,7 @@
 
 </head>
 
-<body>
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -69,7 +70,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/aboutpic.png')">
+    <header class="intro-header header_about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -82,10 +83,9 @@
             </div>
         </div>
     </header>
-    <body>
-    <center>
+    <main class="aboutinfo">
     
-      <div class="row aboutFirst" style="background-color:black; width:90%;">
+       <div class="row aboutFirst">
         <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-1 col-xs-offset-1"><p id="sizes"> Height </p></div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><p id="sizes"> Bust </p></div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><p id="sizes"> Waist </p></div>
@@ -97,7 +97,7 @@
     </div>
         
     <br>
-    <div class="row aboutThird" style="width:90%;">
+    <div class="row aboutThird">
     
         <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-1 col-xs-offset-1"><img id="abouticon" src="icons/height.png"></div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><img id="abouticon" src="icons/breast.png"></div>
@@ -111,7 +111,7 @@
 
     <br>
 
-    <div class="row aboutSecond" style="background-color:black; width:90%;">
+    <div class="row aboutSecond">
 
         <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 col-xs-1 col-xs-offset-1"><p id="values"> 179 </p></div>
         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><p id="values"> 79 </p></div>
@@ -123,10 +123,8 @@
         
     </div>
 
-
-    </center>
-    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-    </body>
+    </main>
+    
     <hr>
 
     <!-- Footer -->
@@ -167,6 +165,9 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>  
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
