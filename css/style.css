@@ -1,3 +1,12 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+header{
+    font-family: 'Roboto Slab', serif;
+
+}
 /*
 ANIMATION FUNCTION FOR GALLERY
 */
@@ -46,77 +55,9 @@ animation-direction: alternate;
     margin: 0px 10px;
 }
 
-#sizes{
-    font-size: 0.9em;
-    display: inline;
-    text-align: center;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    color: white;
-}
 
 
-#abouticon{
-    height: 2em;
-    width: 2em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-#values{
-    font-size: 0.9em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    display: inline;
-    text-align: center;
-    color: white;
 
-}
-.abouthead{
-    text-align: left;
-    margin-top: 1.5em;
-    color: #d55e5f;
-    font-size: 1.6em;
-    font-family: Avenir light;
-}
-.contact-info{
-    margin: 0.5em;
-    color: #343434;
-    text-align: center;
-    font-size: 0.8em;
-    font-family: Helvetica Light;
-}
-
-.subheading:hover{
-    color: #d55e5f;
-}
-#map {
-        height: 400px;
-        width: 100%;
-        padding-top: 1.5em;
-       }
-.places{
-    margin-bottom: -1.2em;
-    text-align: center;
-    color: #d55e5f;
-    font-size: 2.5em;
-
-}
-
-#video {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
-}
-
-#video iframe, #video object, #video embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-}
 
 .header_about{
     background-image: url('../img/aboutpic.png');
@@ -151,16 +92,9 @@ animation-direction: alternate;
 #horrizontalhr{
     transform: rotate(90deg);
 }
-#contact{
-    margin-left: auto;
-    margin-right: auto;
-}
-.contact {
-    margin: 0 auto;
-    width: 250px;
-}
 
-header{
+
+.header{
 background: url(../img/home.png) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -172,6 +106,39 @@ height: 400px;
   
 
 }
+.headerAbout{
+background: url(../img/aboutpic.png) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: 400px;
+
+  
+
+}
+.headerLifestyle{
+background: url(../img/lifestylepic.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: 400px;
+}
+
+.headerContact{
+background: url(../img/contactpic.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+height: 400px;
+  
+}
+
 #headerH1{
     text-align: center;
     display: block;
@@ -213,34 +180,11 @@ footer{
 }
 .aboutSection{
     margin: 0 auto;
-    background-color: grey;
+    
     width: 30%;
 }
-.namesOfSizes{
-    width: 50%;
-    float: left;
-    background-color: #d55e5f;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 30px;
-    color: white;
-    text-align: right;
 
-}
-.actualSizes{
-    width: 50%;
-    float: right;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: grey;
-}
+
 .iconsDiv{
     width: 10%;
     margin: 0 auto;
@@ -252,3 +196,123 @@ footer{
     margin: 0 auto;
 
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.aboutImage{
+    position: relative;
+    height: 450px;
+    width: 300px;
+    float: left;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+table{
+    float: right;
+    position: relative;
+    top: -200px;   
+
+}
+
+.emptyDiv{
+    height: 200px;
+    width: 700px;
+    background-color: #d55e5f;
+    display: block;
+    position: relative;
+    top: 500px;
+    left: -100px;
+}
+
+.postH1{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.postWraper{
+    margin: 10px 20px 10px 20px;
+}
+.postText{
+    margin: 10px 100px 10px 100px;
+    text-indent: 50px;
+}
+
+video{
+    
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+}
+.model{
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contactBlock{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: #d55e5f;
+    margin: 20px 20px 20px 20px;
+
+}
+.icon{
+    width: 50%;
+    height: 50%;
+    margin: 20% 20% 20% 20%;
+}
+.contactText{
+    display: none;
+}
+.contactBlock:hover > .contactText{
+    display: block;
+}
+.contact{
+    margin: 20px 10px 20px 10px;
+}
+.newsletterText{
+    text-align: center;
+}
+
+#map{
+    width: 80%;
+    height: 400px;
+    position: relative;
+    margin: 0 auto 20px auto;
+    
+}
+.contactH3{
+    text-align: center;
+}
+
+.socialIcon{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a img:hover{
+    opacity: 0.5;
+}
+

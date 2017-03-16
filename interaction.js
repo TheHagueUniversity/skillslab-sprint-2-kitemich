@@ -9,7 +9,7 @@ sr.reveal('#video');
 
 sr.reveal('.contactFirst');
 
-sr.reveal('#map');
+
 
 
 
