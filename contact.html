@@ -28,6 +28,9 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="index.html">db lifestyle</a>
+                <a class="logoNav" href="index.html">
+                    <img src="img/logosmall.png">
+                </a>
 
             </div>
 
@@ -78,28 +81,27 @@
         </center>
     </div>
    
+    <div class="formDiv">
     
-     <p class="newsletterText"> Sign up to newsletter</p>
-     <center>
-        <form class="contact">
-            <input class="formField" type="text" name="firstname" value="first name"><br><br>
-            <input class="formField" type="text" name="lastname" value="last name"><br><br>
-            <input class="formField" type="email" name="email" value="e-mail"><br><br>
-            <input class="formField" type="number" name="age" value="18"><br><br>
-            <input class="formField" type="tel" name="telnum" value="telephone"><br><br>
-            <input onsubmit="crazyFunction()" class="formField" type="submit" value="Send">
-        </form>
-        </center>
-
-        <h2 class="formText">Thank You!</h2>
-
-    <h3 class="contactH3">Where I have been so far?</h3>    
-    <div id="map">
-        
+         <p class="newsletterText"> Sign up to newsletter</p>
+             <center>
+                    <form class="contact">
+                        <input class="formField" type="text" name="firstname" value="first name"><br><br>
+                        <input class="formField" type="text" name="lastname" value="last name"><br><br>
+                        <input class="formField" type="email" name="email" value="e-mail"><br><br>
+                        <input class="formField" type="number" name="age" value="18"><br><br>
+                        <input class="formField" type="tel" name="telnum" value="telephone"><br><br>
+                        <input onsubmit="crazyFunction()" class="formField" type="submit" value="Send">
+                    </form>
+                </center>
     </div>
 
-    <script>
-      function initMap() {
+    <h3 class="contactH3">Where I have been so far?</h3>    
+    
+    <div id="map"></div>
+
+    <script type="text/javascript">
+    function initMap() {
         var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
@@ -120,7 +122,6 @@
           map: map
         });
       }
-      
     </script>
 
     <script async defer
